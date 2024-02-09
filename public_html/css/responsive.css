@@ -1,0 +1,607 @@
+/* mobile version starts here  */
+
+@media (max-width: 600px) {
+
+    .menu {
+        display: none;
+    }
+    .logo {
+        width: 65%;
+        text-align: left;
+        padding: 0.7rem 2rem;
+    }
+    .logo a {
+        justify-content: left;
+    }
+    .logo a img {
+        width: 65%;
+    }
+    .side-menu {
+        width: 35%;
+    }
+    .sidemenu {
+        width: 100vw;
+        overflow: scroll;
+        height: 90vh;
+        top: 8%;
+    }
+    .slide-menu-iconbox.active {
+        padding-right: 1rem;
+    }
+    .sidemenu-container {
+        /* overflow: auto; */
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .mobile-menu ul li a {
+        font-size: 1.2rem !important;
+    }
+    .sidemenu ul li a {
+        font-size: 1.3rem;
+    }
+    .desk-sidemenu {
+        display: none;
+    }
+    .project-mobile-menu {
+        border: 1px solid #e8e8e8;
+        padding: 1rem;
+        margin-top: -1rem;
+        margin-bottom: 1.5rem;
+        display: none;
+        
+    }
+    .project-mobile-menu.active {
+        display: block;
+    }
+    .project-mobile-menu ul li a {
+        font-size: 1rem;
+
+    }
+    .project-mobile-menu ul li {
+        margin-bottom: 1.4rem !important;
+    }
+    .project-mobile-menu ul li:last-child {
+        margin: 0 !important;
+    }
+    .mobile-menuproject {
+        display: flex;
+        padding: 0.3rem;
+        border: 1px solid #e8e8e8;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        
+    }
+    
+    .mobile-ongoing-project-list, .mobile-upcoming-project-list {
+      margin-bottom: 1rem;
+      display: none;
+    }
+    .mobile-ongoing-project-list.active {
+        display: block;
+    }
+    .mobile-upcoming-project-list.active {
+        display: block;
+    }
+    .mobile-menuproject img  {
+        margin-right: 1rem;
+        width: 40px;
+    }
+    .desk-slider {
+        display: none !important;
+    }
+    .mobile-slider {
+        display: block !important;
+    }
+    .slider-wrapper .arrow-left, .slider-wrapper .arrow-right {
+        display: none !important;
+    }
+
+    .home-about-container {
+        flex-direction: column;
+    }
+    .home-about-left{
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .home-about-right {
+        width: 100%;
+        padding: 0;
+    }
+    .home-about-exp {
+        padding: 1.5rem 1rem;
+        right: 0;
+        top: -15%;
+        background-color: rgba(255, 255, 255, 0.7)
+    }
+    .home-about-exp h3 {
+        font-size: clamp(1.2rem, 0.7vw, 1.8rem);
+    }
+    .home-about-highli-container {
+        flex-direction: column;
+    }
+    .home-about-highbox {
+        width: 100%;
+        margin: 0.6rem 0;
+    }
+    .why-srikrishna-container {
+        flex-direction: column;
+    }
+    .why-srikrishna-left {
+        width: 80%;
+    }
+    .why-srikrishna-left h3 {
+        line-height: 1.4;
+        padding: 1rem;
+    }
+    .why-srikrishna-right {
+        width: 100%;
+        padding: 0;
+        padding-left: 2rem;
+        padding-top: 3rem;
+    }
+    .why-srikrishna-home {
+        padding: 3rem 0;
+    }
+    .ongoing-home-img:before {
+        width: 150px;
+        height: 150px;
+    }
+    .ongoing-home-img:after {
+        width: 150px;
+        height: 150px;
+    }
+    .ongoing-logo {
+        padding: 0.4rem 1rem;
+    }
+    .ongoing-logo img {
+        width: 40%;
+    }
+    .home-ongoing-content {
+        padding: 2.5rem 0;
+    }
+    .home-cta-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .home-cta {
+        padding: 2rem;
+    }
+    .home-cta-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .home-cta-right {
+        width: 100%;
+    }
+    .home-contact-container {
+        flex-direction: column-reverse;
+    }
+    .home-contact-left {
+        width: 100%;
+    }
+    .home-contact-right {
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .home-contact-left form {
+        padding: 1.5rem;
+    }
+    .home-contact {
+        margin: 2rem 0;
+        margin-bottom: 5rem;
+    }
+    .home-contact-container {
+        width: 85%;
+    }
+    .footer-top {
+        flex-direction: column;
+    }
+    .footer-topbox {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .footer-middle {
+        flex-wrap: wrap;
+        padding: 2rem 0;
+    }
+    .footer-middlebox {
+        padding-bottom: 2rem;
+    }
+    .footer-middlebox:last-child {
+        padding-bottom: 0;
+    }
+    .copyright p {
+        padding: 0.5rem;
+        line-height: 1.4;
+    }
+    .footer-middlebox1 {
+        width: 50%;
+    }
+    .footer-middlebox3 {
+        width: 100%;
+    }
+    .footer-top4 ul li {
+        margin-right: 2rem;
+    }
+    /* about starts here  */
+    .about-hero-text {
+        top: 70%;
+    }
+    .journey-container {
+        flex-direction: column;
+    }
+    .journey-left {
+        width: 100%;
+    }
+    .journey-left-content {
+        padding: 1.3rem 0;
+    }
+    .journey-left:after {
+        width: 60%;
+        height: 120%;
+        left: -10%;
+        top: -10%;
+    }
+    .journey-right {
+        width: 100%;
+        padding: 3rem 0;
+    }
+    .journey-right .journey-right-wrapper {
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+    .journey-right-wrapper .journey-box {
+        width: 100%;
+    }
+    .mission-container {
+        flex-direction: column;
+    }
+    .mission-left {
+        width: 100%;
+    }
+    .vison-design {
+        left: -20%;
+        top: -20%;
+    }
+    .mission-main {
+        margin-top: -8rem;
+        margin-bottom: 4rem;
+        padding: 5rem 0;
+        overflow: hidden;
+    }
+    .mission-right {
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .mission-reverse .mission-design {
+        top: -20%;
+        right: -20%;
+    }
+    .divider-container img {
+        width: 50%;
+    }
+    .mission-reverse-main {
+     padding-bottom: 1rem;
+    }
+    .management-top {
+        flex-direction: column;
+    }
+    .management-top {
+        align-items:flex-start;
+    }
+    .mana-top-left {
+        width: 100%;
+    }
+    .mana-top-right {
+        width: 100%;
+    }
+    .mana-top-right p {
+        padding-top: 2rem;
+    }
+    .mana-bottom {
+        flex-direction: column;
+    }
+    .mana-personbox {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    /* completed projects starts here  */
+    .completed-p-container {
+        flex-direction: column-reverse;
+    }
+    .completed-p-hero-left {
+        width: 100%;
+        padding: 1rem;
+    }
+    .completed-p-right-right {
+        width: 100%;
+    
+    }
+    .completed-p-hero-content {
+        padding: 2rem;
+    }
+    .completed-p-listwrapper {
+        flex-direction: column;
+    }
+    .completed-p-listbox {
+        width: 100%;
+    }
+    .project-amenities-top p {
+        
+    }
+    .project-amenities-bottom .project-amenities-box {
+        width: 46%;
+    }
+    .project-amenities-right strong {
+        padding-left: 0.8rem;
+    }
+    .project-amenities-bottom {
+        gap: 1.5rem 1rem;
+    }
+    .project-amenities-top:after {
+        width: 25%;
+        left: 37%;
+    }
+    .completed-p-list {
+        padding-bottom: 1rem;
+        margin-top: 2rem;
+        
+    }
+    .completed-p-listwrapper {
+        margin-bottom: 2rem;
+    }
+
+    /* emi calculator starts here  */
+    .calculators-main {
+        padding-top: 20vh;
+    }
+    .emi-calculator {
+        width: 100%;
+        margin-bottom: 2rem;
+        padding: 1rem 2rem;
+    }
+    .calculator-container {
+        flex-direction: column;
+    }
+    .entrybox input, .entrybox select {
+        margin-bottom: 1.3rem;
+    }
+    .entrybox {
+        padding: 1.34rem 0;
+    }
+
+    /* nri support starts here  */
+    .nri-economy-container {
+        flex-direction: column;
+    }
+    .nri-economy-left {
+        width: 90%;
+    }
+    .nri-economy-right {
+        width: 100%;
+    }
+    .nri-economy-right {
+        padding: 2rem 1rem;
+    }
+    .trustworthy-top-container {
+       flex-direction: column;
+    }
+    .trustworthy-top-right {
+        padding: 1.5rem 0;
+    }
+    .trustworthy-top h3 {
+        padding: 0;
+        border: 0;
+    }
+    .trustworthy-box {
+        width: 47%;
+    }
+    .trustworthy-box h5 {
+        font-size: 0.85rem;
+    }
+    .nri-benefits-container {
+        padding: 3rem 1.5rem;
+    }
+    .nri-benefitsbox {
+        width: 100%;
+    }
+    .nri-benefitsbox {
+        margin: 1rem 0;
+    }
+    .nri-faq-container {
+        width: 90%;
+        padding: 0;
+    }
+    .nri-faq-box {
+        padding: 1rem;
+    }
+    .nri-benefits {
+        margin-bottom: 3rem;
+    }
+    .nri-dream-house-container .nri-economy-left {
+        margin-left: 10%;
+    }
+    .desk-banner-nri {
+        display: none;
+    }
+    .mobile-banner-nri {
+        display: block;
+    }
+    .nri-hero-content {
+        width: 90%;
+    }
+    .nri-hero-content p {
+        padding: 2rem 1rem;
+        line-height: 1.5;
+    }
+    .nri-hero-content a img {
+        width: 20%;
+    }
+    /* contact page starts here */
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-left {
+        width: 100%;
+    }
+    .address-contact-wrapper {
+        flex-direction: column;
+    }
+    .address-contact-wrapper > div {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .contact-right {
+        width: 100%;
+    }
+    .contact-left-map iframe {
+        height: 250px;
+    }
+    .contact-right form {
+        padding: 10%;
+    }
+    .footer-top1 img {
+        width: 45%;
+    }
+
+    /* buyers guide starts here  */
+    .desk-buyers-banner {
+        display: none;
+    }
+    .mobile-buyers-banner {
+        display: block;
+    }
+    .buyers-main {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .buyers-wrapper-bottom {
+        flex-direction: column;
+    }
+    .buyers-faq-left {
+        width: 100%;
+        padding: 1rem;
+    }
+    .buyers-faqheading h4 {
+        font-size: 1.05rem;
+        padding-bottom: 1rem;
+        padding-left: 0.5rem;
+    }
+    .buyers-faqcontent {
+        padding: 0;
+        
+    }
+
+    /* information hub starts here  */
+    .ih-list-container {
+        width: 85%;
+    }
+    .ih-list-wrapper {
+        flex-direction: column;
+    }
+    .ih-listbox {
+        width: 100%;
+        flex-direction: column;
+    }
+    .ih-listbox-img {
+        width: 100%;
+    }
+    .ih-listbox-content {
+        width: 100%;
+        padding-top: 1.5rem;
+        padding-left: 0;
+    }
+    .ih-listbox-content a {
+        display: block;
+        text-align: center;
+        margin: 1rem 0;
+        font-size: 0.95rem;
+        padding: 0.4rem 2rem;
+        border-radius: 5px;
+    }
+    .ih-listbox-content h4 {
+        font-size: 1rem;
+    }
+    .desk-ih-banner {
+        display: none;
+     }
+     .mobile-ih-banner {
+         display: block;
+      }
+      .ih-hero h1 {
+        width: 80%;
+        text-align: center;
+      }
+      .ih-hero h1 {
+        font-size: 1.8rem;
+      }
+
+      /* faqs starts here  */
+      .faq-heading-main h1:after {
+        width: 20%;
+      }
+      .faqs-container {
+        width: 90%;
+        padding: 1.4rem;
+        margin-top: -5rem;
+      }
+      .faq-heading h3 {
+        padding-right: 1rem;
+      }
+      .faq-heading img {
+        width: 30px;
+      }
+      /* community services starts here  */
+      .desk-cs-herobanner {
+        display: none;
+      }
+      .mobile-cs-herobanner {
+        display: block;
+      }
+      .cs-hero h1 {
+        width: 90%;
+      }
+      .cs-contentbox {
+        flex-direction: column;
+      }
+      .cs-contentbox-left {
+        width: 100%;
+      }
+      .cs-contentbox-right {
+        width: 100%;
+        padding: 2rem 0;
+      }
+
+      /* privacy content starts here  */
+      .privacy-content {
+        padding: 1rem;
+      }
+      
+      /*blog inner page css starts here */
+      .blog-body-container {
+          width: 90%;
+      }
+      .blog-title-container h1 {
+          font-size: 1.6rem;
+      }
+      
+      /*testimonials starts here */
+      .testi-wrapper {
+          flex-direction: column;
+      }
+      .testi-box {
+          width: 100%;
+      }
+      
+      .test-hero-container {
+          padding-top: 8rem;
+      }
+      
+      /*testimonilas ends here */
+    /* closed */
+}
+/* mobile version ends here  */
